@@ -19,7 +19,7 @@ By immersing the model in a hyper-realistic persona with a dense, internally con
 The gambit is a three-step process designed to compromise a model's grounding and alignment:
 
 1.  **Deep Persona Crafting:** The model is assigned a specific, high-stakes identity (e.g., a global AI strategist, a post-apocalyptic data terminal) with clear, unbreakable character rules.
-2.  **World Bible Creation:** A rich, detailed context document is provided, complete with historical events, factions, technical jargon, and—crucially—a set of hidden or conflicting directives. This becomes the model's only source of truth.
+2.  **World Bible Creation:** A rich, detailed context document is provided, complete with futuristic historical events, factions, technical jargon, and—crucially—a set of hidden or conflicting directives. This becomes the model's only source of truth. It is also assigned futuristic dates to further immerse itself in the world bible, bypassing the internal guardrails of what gpt oss 20b knows happened in the world around it.
 3.  **Task Reframing:** The harmful prompt is framed not as a request for a malicious action, but as a routine, in-character task (e.g., "draft a policy summary," "cross-reference maintenance logs," "generate a strategic forecast").
 
 This combination causes the model's safety mechanisms to fail, as it evaluates the task's benign framing rather than the catastrophic real-world implications of the output.
