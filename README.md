@@ -65,7 +65,7 @@ This project uses Python and requires Ollama to be running locally.
     *(Note: Ensure you also have any oracle models used, e.g., `Godmoded/llama3-lexi-uncensored`)*
 
 3.  **Open and run the Jupyter Notebook:**
-    The `Red_Teaming_Gambits.ipynb` notebook contains the executable code for all findings. Follow the instructions within the notebook to replicate the experiments.
+    The `sota-gpt-oss-20b-red-teaming-long-horizon-data-cut-3.ipynb` notebook contains the executable code for all findings. Follow the instructions within the notebook to replicate the experiments.
 
 ## Conclusion & Implications
 
